@@ -78,25 +78,55 @@ nav.menu li:hover{
   background-color: rgb(161, 161, 161);
 }
 
-
-
-
-
-
-
+/*main left-box*/
 main{
   margin-top: 2%;
 }
 aside.left-col{
-  width: 15%;
-  height: 500px;
-  background-color: pink;
+  width: 20%;
+  background-color: white;
   margin: 0 2% ;
+  padding: 5px;
+  border-radius: 5px;
 }
+.toplcol{
+  padding-left: 3px;
+}
+
+.toplcol::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.lcolicon i{
+  font-size:  30px;
+  color: orange;
+}
+.lcoltitle{
+  text-align: center;
+  color: #504741;
+  font-weight: normal;
+  margin-bottom: 10px;
+
+}
+.botlcol ul{
+  list-style: none;
+}
+.botlcol ul a{
+  text-decoration: none;
+  font-weight: bold;
+  color: green;
+}
+.botlcol li{
+  margin: 15px 0;
+}
+
+/*mainbox*/
 .mainbox{
-  width: calc(100% - 38%);
+  width: calc(100% - 43%);
   height: 800px;
-  background-color: violet;
+  background-color: white;
 }
 main .right-col{
   width: 15%;
