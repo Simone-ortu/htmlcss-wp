@@ -24,7 +24,7 @@ body{
 /*header*/
 header{
   width: 1000px;
-  margin: 2%;
+  margin-top: 20px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   text-transform: uppercase;
@@ -85,7 +85,7 @@ main{
 aside.left-col{
   width: 20%;
   background-color: white;
-  margin: 0 2% ;
+  margin-right: 5%;
   padding: 5px;
   border-radius: 5px;
 }
@@ -124,7 +124,7 @@ aside.left-col{
 
 /*mainbox*/
 .mainbox{
-  width: calc(100% - 43%);
+  width: calc(100% - 50%);
   /*  height: 800px;*/
   background-color: white;
   border-radius: 5px;
@@ -142,34 +142,47 @@ aside.left-col{
   font-weight: 600;
   font-size: 16px;
 }
+
+/*rightcol*/
+
 main .right-col{
-  width: 15%;
-  height: 500px;
-  /*background-color: pink;*/
-  margin: 0 2%;
+  width: 20%;
+  margin-top: -19px;
+  margin-left: 5%;
+
+}
+.right-col h2{
+  margin: 20px 10px;
+  color: #504741;
+
+}
+.right-col p{
+  padding: 15px;
+  line-height: 25px;
+
 }
 .topbox{
   width:100%;
-  /*height: 33%;*/
   background-color: white;
-  /*margin-top: 1%;*/
+  border-radius: 5px;
 }
 .midbox{
   width:100%;
-  /*height: 33%;*/
   background-color: white;
   margin-top: 5%;
+  border-radius: 5px;
 }
 .botbox{
-  width:100%;
-  /*height: 33%;*/
+  width: 100%;
   background-color: white;
   margin-top: 5%;
+  border-radius: 5px;
+  margin-bottom: 5%;
 }
 footer{
-  width: 96%;
+  width: 100%;
   height: 75px;
   background-color: lightblue;
-  margin: 2% 2% 2%;
+  /*margin: 2% 2% 2%;*/
 
 }
