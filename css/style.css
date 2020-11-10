@@ -9,9 +9,7 @@
 
 .container{
   width: 1000px;
-/*  height: 100vh;*/
   margin: auto;
-  /*background-color: white;*/
 }
 
 .clearfix::after{
@@ -25,8 +23,6 @@ body{
 /*header*/
 header{
   width: 1000px;
-  /*height: 100px;*/
-  /*background-color: yellow;*/
   margin: 2%;
 }
 
