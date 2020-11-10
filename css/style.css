@@ -125,8 +125,22 @@ aside.left-col{
 /*mainbox*/
 .mainbox{
   width: calc(100% - 43%);
-  height: 800px;
+  /*  height: 800px;*/
   background-color: white;
+  border-radius: 5px;
+}
+.mainbox h2{
+  padding: 15px;
+  text-transform: uppercase;
+  color: #504741;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.16);
+}
+.mainbox p{
+  margin: 0 20px ;
+  padding-left: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 16px;
 }
 main .right-col{
   width: 15%;
@@ -136,20 +150,20 @@ main .right-col{
 }
 .topbox{
   width:100%;
-  height: 33%;
-  background-color: purple;
+  /*height: 33%;*/
+  background-color: white;
   /*margin-top: 1%;*/
 }
 .midbox{
   width:100%;
-  height: 33%;
-  background-color: purple;
+  /*height: 33%;*/
+  background-color: white;
   margin-top: 5%;
 }
 .botbox{
   width:100%;
-  height: 33%;
-  background-color: purple;
+  /*height: 33%;*/
+  background-color: white;
   margin-top: 5%;
 }
 footer{
