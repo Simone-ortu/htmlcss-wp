@@ -98,13 +98,16 @@ aside.left-col{
   display: table;
   clear: both;
 }
+.lcolicon{
+  width: 20%;
+}
 
 .lcolicon i{
   font-size:  30px;
   color: orange;
 }
 .lcoltitle{
-  text-align: center;
+  width: 80%;
   color: #504741;
   font-weight: normal;
   margin-bottom: 10px;
